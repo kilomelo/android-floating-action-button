@@ -7,11 +7,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/Theme">
-        <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
+            android:theme="@style/Theme.PANDa"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
